@@ -4,6 +4,7 @@ The secret is to @Autowire the RestTemplate into both the @Service class and the
 
 Also, need to create a method to return a RestTemplate @Bean in the @Service class
 
+```
  @Service
  public class MyService {
  
@@ -16,5 +17,4 @@ Also, need to create a method to return a RestTemplate @Bean in the @Service cla
  	}
        
     ...
-
-End.
+```
