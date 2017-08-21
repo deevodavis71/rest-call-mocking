@@ -14,5 +14,5 @@ Also, need to create a method to return a RestTemplate @Bean in the @Service cla
  	public RestTemplate restTemplate() {
  		return new RestTemplate();
  	}
- 
+     
  ...
